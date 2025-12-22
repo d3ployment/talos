@@ -35,7 +35,7 @@ replace (
 )
 
 // Changes from https://github.com/anchore/syft/pull/3932 for deterministic SBOM
-replace github.com/anchore/syft => github.com/dsseng/syft v1.38.1-0.20251209211322-02dcfbd7cb07
+replace github.com/anchore/syft => github.com/dsseng/syft v1.26.2-0.20250522144726-31c1be6d4d3b
 
 require (
 	4d63.com/gocheckcompilerdirectives v1.3.0 // indirect
@@ -100,7 +100,7 @@ require (
 	github.com/OpenPeeDeeP/depguard/v2 v2.2.1 // indirect
 	github.com/ProtonMail/go-crypto v1.3.0 // indirect
 	github.com/STARRY-S/zip v0.2.3 // indirect
-	github.com/aarzilli/whydeadcode v0.0.0-20241226171816-ed86f8ea0a6f // indirect
+	github.com/aarzilli/whydeadcode v0.0.0-20251222144229-51c43d24ea2f // indirect
 	github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d // indirect
 	github.com/acobaugh/osrelease v0.1.0 // indirect
 	github.com/adrg/xdg v0.5.3 // indirect
@@ -423,7 +423,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pkg/profile v1.7.0 // indirect
 	github.com/pkg/xattr v0.4.12 // indirect
-	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
+	github.com/planetscale/vtprotobuf v0.6.1-0.20250313105119-ba97887b0a25 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/polyfloyd/go-errorlint v1.8.0 // indirect
 	github.com/prometheus/client_golang v1.20.5 // indirect
@@ -465,9 +465,9 @@ require (
 	github.com/siderolabs/deep-copy v0.5.8 // indirect
 	github.com/siderolabs/gen v0.8.6 // indirect
 	github.com/siderolabs/importvet v0.2.0 // indirect
-	github.com/siderolabs/talos/tools/docgen v0.0.0-20251218115920-845a0d09cd77 // indirect
-	github.com/siderolabs/talos/tools/gotagsrewrite v0.0.0-20251218115920-845a0d09cd77 // indirect
-	github.com/siderolabs/talos/tools/structprotogen v0.0.0-20251218115920-845a0d09cd77 // indirect
+	github.com/siderolabs/talos/tools/docgen v0.0.0-20251222095825-48d242918bc9 // indirect
+	github.com/siderolabs/talos/tools/gotagsrewrite v0.0.0-20251222095825-48d242918bc9 // indirect
+	github.com/siderolabs/talos/tools/structprotogen v0.0.0-20251222095825-48d242918bc9 // indirect
 	github.com/sirupsen/logrus v1.9.4-0.20230606125235-dd1b4c2e81af // indirect
 	github.com/sivchari/containedctx v1.0.3 // indirect
 	github.com/skeema/knownhosts v1.3.1 // indirect
